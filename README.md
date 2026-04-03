@@ -1,46 +1,19 @@
-# TikTok Video Downloader
+# TikTok Downloader
 
-A powerful command-line tool for downloading TikTok videos and audio.
+A Python CLI that downloads TikTok videos or audio using yt-dlp.
 
-![SRIEVi Logo](https://via.placeholder.com/800x200/0d1117/ffffff?text=SRIEVi+TikTok+Downloader)
+## How it works
+It checks yt-dlp is installed, then runs yt-dlp commands to download a single video, download from a profile, or extract mp3 audio.
 
-## Author
+## Use
+Install: `pip install yt-dlp pyfiglet colorama`  
+Run: `python tiktok.com.py`  
+Choose menu options or use CLI args.
 
-- **Created by:** eirsvi
-- **GitHub:** [https://github.com/eirsvi](https://github.com/eirsvi)
-- **Version:** 1.0.0
+## Where
+Use on Windows, macOS, or Linux in a terminal.
 
-## Features
-
-- Download single TikTok videos
-- Bulk download from user profiles
-- Download as video or extract audio
-- Custom download directories
-- User-friendly interface
-- Command-line arguments support
-
-## Requirements
-
-- Python 3.6+
-- yt-dlp
-- pyfiglet
-- colorama
-
-## Installation
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/eirsvi/tiktok-downloader.git
-   cd tiktok-downloader
-   ```
-
-2. Install the required dependencies:
-   ```
-   pip install yt-dlp pyfiglet colorama
-   ```
-
-## Usage
-
-### Interactive Mode
-
-Run the script without arguments to use the interactive menu: 
+## Owner
+Repo owner: [shiliaiwei](https://github.com/shiliaiwei)  
+Script author value in code: eirsvi  
+Repo: [shiliaiwei/tiktok](https://github.com/shiliaiwei/tiktok)
